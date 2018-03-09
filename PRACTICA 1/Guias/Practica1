@@ -1,0 +1,87 @@
+Ejercicio 6. Escriba un programa que pida dos números A y B e imprima en pantalla la potencia
+B
+A
+, sin hacer uso de librerías matemáticas.
+Ej: si se ingresan 5 y 3 se debe imprimir:
+5 ∧ 3=125
+
+
+Ejercicio 8. Escriba un programa que pida un número N e imprima en pantalla su factorial.
+Ej: si se ingresa 5: 5!=1*2*3*4*5=120, por lo que se debe imprimir:
+5!=120
+
+Ejercicio 14. Escriba un programa que imprima dos columnas paralelas, una con los números del
+1 al 50 y otra con los números del 50 al 1.
+Ej: las primeras lineas a imprimir serían:
+1 50
+2 49
+3 48
+
+Ejercicio 18. Escriba un programa que pida un número N e imprima si es o no un cuadrado per-
+fecto.
+Ej: si se ingresa 9 se debe imprimir:
+9 es un cuadrado perfecto.
+y si se ingresa 8 se debe imprimir:
+8 NO es un cuadrado perfecto.
+
+Ejercicio 22. Escriba un programa que pida una cantidad entera de segundos y la imprima en
+formato horas:minutos:segundos.
+Ej: si se ingresa 7777 se debe imprimir:
+2:9:37
+
+Ejercicio 26. Escriba un programa que pida tres números e imprima el tipo de triangulo (isósce-
+les, equilátero, escaleno) que se formaría, si sus lados tienen la longitud denida por los números
+ingresados. Tenga en cuenta el caso en que los números ingresados no forman un triángulo.
+Ej: si se ingresan 3, 3 y 5 se debe imprimir:
+Se forma un triangulo isosceles.
+y si se ingresan 3, 3 y 6 se debe imprimir:
+Las longitudes ingresadas no forman un triangulo
+
+Ejercicio 30. Escriba un programa que genere un número aleatorio A (entre 0 y 100) y le pida al
+usuario que lo adivine, el usuario ingresa un número B y el programa le dirá si B es mayor o menor
+que A, esto se repetirá hasta que el usuario adivine el número, en ese momento el programa le dirá
+el número de intentos que tardo el usuario en adivinar el número.
+Nota: para generar el número aleatorio use la función rand() de la librería <cstdlib>, recuerde
+convertirlo al rango (0,100).
+
+
+
+
+Problema 4. Escriba un programa para leer dos números enteros con el siguiente signicado: el
+valor del primer número representa una hora del día en un reloj de 24 horas, de modo que 1245
+representa las doce y cuarenta y cinco de la tarde. El segundo entero representa un tiempo de du-
+ración de la misma manera, por lo que 345 representa tres horas y 45 minutos. El programa debe
+sumar esta duración primer número, y el resultado será impreso en la misma notación, en este caso
+1630, que es el tiempo de 3 horas y 45 minutos después de 12:45.
+Nota: el formato de salida debe ser: La hora es 1630.
+Otra nota: se debe imprimir un mensaje como el siguiente cuando uno de los datos ingresados en
+inválido: 1560 es un tiempo invalido.
+
+
+Problema 8. Escriba un programa que reciba 3 números a, b, c, y calcule la suma de todos los
+múltiplos de a y b que sean menores a c. Tenga en cuenta no sumar 2 veces los múltiplos comunes.
+Ej: para a=3, b=5 y c=10. Se sumarían 3+6+9+5=23
+Para a=5, b=7 y c=36. Se sumarían 5+10+15+20+25+30+35+7+14+21+28 = 210.
+Nota: el formato de salida debe ser:
+m11 + m12 + m13 + . . . + m21 + m22 + m23. . . = sumatoria.
+m11 representa el primer múltiplo de a y así sucesivamente. m21 representa el primer múltiplo de b
+y así sucesivamente.
+
+
+Problema 12. Escriba un programa que calcula el máximo factor primo de un número.
+Ej: Si se recibe 33 el programa debe imprimir 11.
+Nota: la salida del programa debe ser: El mayor factor primo de 33 es: 11.
+
+
+Problema 16. La serie de Collatz se conforma con la siguiente regla: sea n un elemento de la serie,
+si n es par, el siguiente elemento es n/2, y si n es impar, el siguiente elemento es 3n+1.
+Escriba un programa que reciba un número k y calcule cual es el elemento inicial j (semilla), menor
+que k, que produce la serie más larga y diga cuantos términos m tiene la serie.
+Tip: la serie termina al llegar a un elemento cuyo valor sea 1.
+Ej: para la semilla 13: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
+Nota: la salida del programa debe ser:
+La serie mas larga es con la semilla: j, teniendo m terminos.
+Otra nota: se le dará una bonificación si imprime la serie.
+
+
+
