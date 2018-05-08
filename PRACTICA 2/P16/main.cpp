@@ -15,7 +15,7 @@ Para una malla de 2x2 puntos hay 6 caminos.*/
 using namespace std;
 
 
-long unsigned int Factorialn (int n); //Declaración de la función Factorialn
+long unsigned int Factorialn (int n); //Prototipo de la función Factorialn
 
 //Variables globales
 long long unsigned int factorialn=1;
@@ -46,7 +46,7 @@ int main()
     }
 
 
-long unsigned int Factorialn (int n){ //Prototipo de la función Factorialn
+long unsigned int Factorialn (int n){ //Implementación de la función Factorialn
 
     int contador;
 
